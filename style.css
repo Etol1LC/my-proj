@@ -1,0 +1,32 @@
+body, html {background-color: black;}
+
+h1 {font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: cyan;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#title {
+    padding-bottom: 10px;
+}
+
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: auto;
+}
+
+
+#myAudio {    
+    text-align: center;
+}
+
+audio {
+    background-color:crimson;
+    color: crimson;
+}
+

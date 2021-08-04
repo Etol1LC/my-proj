@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Site That Does Nothing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/hydra-synth"> </script>
+    <script src="customAudio.js" defer></script>
+</head>
+<body>
+ <div id="title">   
+   <h1> A Web Site That Does Absolutley Nothing </h1>
+ </div>
+  <canvas id="myCanvas"> </canvas> 
+  <p id="myAudio" >
+    <audio controls 
+     src="assets/AC_3.wav">
+    </audio>
+  </p> 
+   <script> 
+    // create a new hydra-synth instance
+     var hydra = new Hydra({
+        canvas: document.getElementById("myCanvas"),
+        detectAudio: false
+      })
+      osc(12.3).out()
+    </script>
+</body>
+</html>
